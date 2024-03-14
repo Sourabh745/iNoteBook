@@ -1,0 +1,11 @@
+error: MongoNetworkError: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017
+
+
+Solution: 
+
+This happened probably because the MongoDB service isn't started. Follow the below steps to start it:
+
+Press the Windows + R keys on your keyboard to open the Run window. Type services.msc and hit Enter on your keyboard or click/tap the OK button. A new window opens up.
+Search MongoDB.exe. Right click on it and select Start.
+The server will start. Now execute npm start again and the code might work this time.
+
