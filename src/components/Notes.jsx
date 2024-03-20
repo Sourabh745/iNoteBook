@@ -12,7 +12,7 @@ const Notes = (props) => {
         if(localStorage.getItem('token')){
             getNotes();
         }       
-            history("/login");
+            history("/");
     
     }, []);
       
