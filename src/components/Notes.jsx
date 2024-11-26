@@ -3,6 +3,8 @@ import NoteContext from '../context/noted/noteContext';
 import NoteItem from './Noteitem';
 import AddNote from './AddNote';
 import {useNavigate} from 'react-router-dom';
+import '../styles/NoteItem.css'
+
 
 const Notes = (props) => {
     const context = useContext(NoteContext);
@@ -48,7 +50,7 @@ const Notes = (props) => {
                             <h5 className="modal-title" id="exampleModalLabel">Edit Notes</h5>
                             <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
-                        <div className="modal-body">
+                        <div className="modal-body card1">
                             <div className='container my-3'>
                                 <form>
                                     <div className="mb-3">

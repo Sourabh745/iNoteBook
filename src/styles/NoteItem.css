@@ -1,0 +1,21 @@
+.card1 {
+    background-color: transparent;
+    box-shadow:10cm;
+    border-width: 5px;
+    border-color: azure;
+}
+
+.card-title1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar-transparent .nav-link {
+    color: #fff;
+}
+
+.navbar-transparent .nav-link:hover {
+    color: #00bfff;
+}
+

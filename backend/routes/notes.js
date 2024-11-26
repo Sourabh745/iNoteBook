@@ -14,7 +14,7 @@ router.get('/fetchallnotes', fetchUser, async (req, res) => {
     catch (error) {
         console.error(error.message);
         res.status(500).send("Internal Server error");
-    }
+    } 
 });
 
 // ROUTE 2: Add a new notes using: POST "/api/notes/fetchallnotes". Login required
